@@ -124,9 +124,10 @@ def main():
     end = (7, 6)
 
     path = astar(maze, start, end, 1)
-    print(path)
-    maze[0][0]= 1
-    print(maze)
+    print("sortest-path:", path)
+    # maze[0][0]= 1
+    print("\n")
+    print("map:\n", maze)
 
 
 if __name__ == '__main__':
