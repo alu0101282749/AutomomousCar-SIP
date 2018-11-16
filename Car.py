@@ -1,5 +1,7 @@
-import heapq
 from heapq import *
+import math
+from math import sqrt
+
 
 class Node():
     """A node class for A* Pathfinding"""
@@ -19,9 +21,14 @@ class Node():
     def __lt__(self, other):
         return self.f < other.f
 
+def heuristics(node, end_node, h):
+    if h == 0:
+        return sqrt((node.position[0] - end_node.position[0]) ** 2) + ((node.position[1] - end_node.position[1]) ** 2)
+    elif h == 1:
+        return (abs(node.position[0] - end_node.position[0])) + abs((node.position[1] - end_node.position[1]))
 
 
-def astar(maze, start, end):
+def astar(maze, start, end, h):
     """Returns a list of tuples as a path from the given start to the given end in the given maze"""
 
     # Create start and end node
@@ -95,9 +102,9 @@ def astar(maze, start, end):
                 if child == closed_child:
                     continue
 
-            # Create the f, g, and h values
+            # Create the g, h and f values
             child.g = current_node.g + 1
-            child.h = ((child.position[0] - end_node.position[0]) ** 2) + ((child.position[1] - end_node.position[1]) ** 2)
+            child.h = heuristics(child, end_node, h)    # h: choose heuristic case
             child.f = child.g + child.h
 
             # Child is already in the open list
@@ -125,7 +132,7 @@ def main():
     start = (0, 0)
     end = (7, 6)
 
-    path = astar(maze, start, end)
+    path = astar(maze, start, end, 1)
     print(path)
 
 

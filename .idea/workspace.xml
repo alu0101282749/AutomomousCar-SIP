@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e85cb29-44ad-455f-beab-b542ff132855" name="Default Changelist" comment="Initial A* with list">
+    <list default="true" id="9e85cb29-44ad-455f-beab-b542ff132855" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Car.py" afterDir="false" />
     </list>
@@ -35,14 +35,14 @@
         <counts>
           <entry key="Python Console" value="34" />
           <entry key="groovy" value="5" />
-          <entry key="py" value="635" />
-          <entry key="txt" value="28" />
+          <entry key="py" value="1109" />
+          <entry key="txt" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="669" />
+          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="Python" value="1143" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
@@ -53,10 +53,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="493">
+              <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="33" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542406074961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="open_list to heapq to find the min faster">
+      <created>1542407268990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542407268990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -187,7 +194,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50054646" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988938" weight="0.3109426" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988938" visible="true" weight="0.3109426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -202,7 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial A* with list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial A* with list" />
+    <MESSAGE value="open_list to heapq to find the min faster" />
+    <option name="LAST_COMMIT_MESSAGE" value="open_list to heapq to find the min faster" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
@@ -228,10 +236,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="493">
+          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="33" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
