@@ -106,7 +106,9 @@ def astar(maze, start, end, h):
 
 
 def main():
-
+    #Todo: print_map
+    #Todo: print way
+    #Todo: Userimput
     maze = [[0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
@@ -123,6 +125,8 @@ def main():
 
     path = astar(maze, start, end, 1)
     print(path)
+    maze[0][0]= 1
+    print(maze)
 
 
 if __name__ == '__main__':
