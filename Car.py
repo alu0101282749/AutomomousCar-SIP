@@ -11,9 +11,14 @@ class Node():
         self.g = 0
         self.h = 0
         self.f = 0
-
+    # overwite the qual method to get a match when the positions are qeual
     def __eq__(self, other):
         return self.position == other.position
+
+    # overwrite the compare itselfe method so heapq will take the f-value of the Node to sort by
+    def __lt__(self, other):
+        return self.f < other.f
+
 
 
 def astar(maze, start, end):
@@ -30,21 +35,26 @@ def astar(maze, start, end):
     closed_list = []
 
     # Add the start node
-    open_list.append(start_node)
+    #open_list.append(start_node)
+    heappush(open_list,start_node)
 
     # Loop until you find the end
-    while len(open_list) > 0:
+    #while len(open_list) > 0:
+    while open_list:
 
         # Get the current node
-        current_node = open_list[0]
-        current_index = 0
-        for index, item in enumerate(open_list):
-            if item.f < current_node.f:
-                current_node = item
-                current_index = index
+        #current_node = open_list[0]
+        current_node = heappop(open_list)
+
+        # current_index = 0
+        # for index, item in enumerate(open_list):
+        #     if item.f < current_node.f:
+        #         current_node = item
+        #         current_index = index
 
         # Pop current off open list, add to closed list
-        open_list.pop(current_index)
+        #open_list.pop(current_index)
+
         closed_list.append(current_node)
 
         # Found the goal

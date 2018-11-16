@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e85cb29-44ad-455f-beab-b542ff132855" name="Default Changelist" comment="">
+    <list default="true" id="9e85cb29-44ad-455f-beab-b542ff132855" name="Default Changelist" comment="Initial A* with list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Car.py" afterDir="false" />
     </list>
@@ -35,12 +35,14 @@
         <counts>
           <entry key="Python Console" value="34" />
           <entry key="groovy" value="5" />
-          <entry key="py" value="317" />
+          <entry key="py" value="635" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="351" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="669" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
@@ -51,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="122" column="10" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -109,7 +111,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/alu0101282749@ull.edu.es/Semestre/1st/Intelegencia Artificial/Python/python-pathfinding" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,6 +164,14 @@
       <option name="presentableId" value="Default" />
       <updated>1542381015619</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial A* with list">
+      <created>1542406074961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542406074961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -171,9 +181,9 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.109284334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" weight="0.32912844" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49945354" visible="true" weight="0.14409535" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49945354" weight="0.14409535" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50054646" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -189,6 +199,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial A* with list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial A* with list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
@@ -214,8 +228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="122" column="10" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+        <state relative-caret-position="68">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
