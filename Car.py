@@ -109,6 +109,7 @@ def main():
     #Todo: print_map
     #Todo: print way
     #Todo: Userimput
+    #Todo: create map method
     maze = [[0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
