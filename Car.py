@@ -1,5 +1,5 @@
 import heapq
-
+from heapq import *
 
 class Node():
     """A node class for A* Pathfinding"""
@@ -26,12 +26,10 @@ def astar(maze, start, end):
     end_node.g = end_node.h = end_node.f = 0
 
     # Initialize both open and closed list
-    #open_heap = []
     open_list = []
     closed_list = []
 
     # Add the start node
-    #heapq.heappush(open_heap,start_node)
     open_list.append(start_node)
 
     # Loop until you find the end
@@ -115,7 +113,7 @@ def main():
             [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
 
     start = (0, 0)
-    end = (5, 5)
+    end = (7, 6)
 
     path = astar(maze, start, end)
     print(path)
