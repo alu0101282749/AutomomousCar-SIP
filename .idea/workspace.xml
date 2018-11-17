@@ -40,14 +40,14 @@
         <counts>
           <entry key="Python Console" value="40" />
           <entry key="groovy" value="5" />
-          <entry key="py" value="2284" />
-          <entry key="txt" value="203" />
+          <entry key="py" value="2644" />
+          <entry key="txt" value="258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="203" />
-          <entry key="Python" value="2324" />
+          <entry key="PLAIN_TEXT" value="258" />
+          <entry key="Python" value="2684" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+            <state relative-caret-position="161">
+              <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#62#582#0" />
@@ -222,10 +222,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542412488541</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added new Map class and some methods to print the map">
+      <created>1542489647654</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542489647654</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added new Map class and some methods to print the map">
+      <created>1542489776124</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542489776124</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -243,15 +257,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988938" weight="0.31027028" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.60163933" visible="true" weight="0.29405406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49945354" weight="0.14378378" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054646" side_tool="true" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32864866" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32864866" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49945354" weight="0.32864866" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989071" weight="0.3718919" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.39836067" side_tool="true" weight="0.31027028" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32864866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,7 +280,8 @@
     <MESSAGE value="added heuristic cases" />
     <MESSAGE value="cleaned old open_list commands" />
     <MESSAGE value="added TODOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="added TODOS" />
+    <MESSAGE value="added new Map class and some methods to print the map" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new Map class and some methods to print the map" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy" />
@@ -287,8 +302,8 @@
     <entry file="file://$PROJECT_DIR$/Pathfinder.py" />
     <entry file="file://$PROJECT_DIR$/Car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+        <state relative-caret-position="161">
+          <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#62#582#0" />

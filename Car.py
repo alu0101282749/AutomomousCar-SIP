@@ -1,6 +1,7 @@
 from heapq import *
 from math import sqrt
 import numpy
+import random
 
 
 class Node():
@@ -22,17 +23,29 @@ class Node():
         return self.f < other.f
 
 class Map():
-    def __init__(self, map_size=(10,10), start=(0,0), end = (6,6), obstacles=0):
+    def __init__(self, map_size=(10,10), start=(0,0), end = (6,6), obstacles_percent=0):
         self.m_size = map_size
         self.map = numpy.zeros(shape=map_size)
-        self.m_obstacles = obstacles
-        while
+
+        self.m_obstacles_percent = obstacles_percent
+        self.create_map()
 
     # overwrite str method so the map can be printet
     def __str__(self):
-        return str(self.map)
+        to_ret = str(self.map)
+        to_ret = " " + to_ret[1:-1]
+        return to_ret
 
-    def
+    def create_map(self):
+        #
+        obst = self.m_size[0] * self.m_size[1] * self.m_obstacles_percent / 100
+        while obst:
+            x = random.randint(0,self.m_size[0]-1)
+            y = random.randint(0, self.m_size[1] - 1)
+            if self.map[x][y] == 0:
+                self.map[x][y] = 1
+            obst -=1
+
 
 
 
@@ -145,7 +158,7 @@ class Nav(object):
 class AutonmCar(object):
     """docstring for AutonmCar"""
     def __init__(self):
-        self.nav = None
+        self.ac_map = None
 
 
     def getUserInput(self):
@@ -156,8 +169,8 @@ class AutonmCar(object):
         ac_map_size = (n,m)
         print(' Map will be {} x {}\n'.format(ac_map_size[0], ac_map_size[1]))
         # for testing here
-        ac_map = Map(ac_map_size,(1,2),(5,5), 10)
-        print (ac_map)
+        self.ac_map = Map(ac_map_size,(1,2),(5,5), 50)
+        print (self.ac_map)
 
 
 
@@ -170,10 +183,13 @@ def main():
     car1 = AutonmCar()
     car1.getUserInput()
 
-    #Todo: print_map:       ok
+    #Todo: print_map:           ok
+    #Todo: Userimput            ok
+    #Todo: create map method    ok
     #Todo: print way
-    #Todo: Userimput        ok
-    #Todo: create map method
+    #Todo: make astar to work
+
+
     maze = [[0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
